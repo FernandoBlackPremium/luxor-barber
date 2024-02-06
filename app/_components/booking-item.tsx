@@ -59,7 +59,7 @@ const BookingItem = ({ booking }: BookingItemProps) => {
         <Card className="min-w-full">
           <CardContent className="py-0 flex px-0">
             <div className="flex flex-col gap-2 py-5 flex-[3] pl-5">
-              <Badge variant={isBookingConfirmed ? "default" : "secundary"} className="w-fit">
+              <Badge variant={isBookingConfirmed ? "default" : "secondary"} className="w-fit">
                 {isBookingConfirmed ? "Confirmado" : "Finalizado"}
               </Badge>
               <h2 className="font-bold">{booking.service.name}</h2>
